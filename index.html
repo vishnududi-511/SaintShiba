@@ -12,11 +12,11 @@
 
 <body>
     <header>
-        <nav class="nav-bar">
+        <nav class="nav-bar position-fixed w-100">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between ">
                     <p class="saint m-0">Saint<span class="shiba">Shiba</span></p>
-                    <div class="d-flex align-items-center gap-30">
+                    <div class="d-flex align-items-center gap-30 navitems">
                         <a href="" class="nav-fonts">Home</a>
                         <a href="" class="nav-fonts">About</a>
                         <a href="" class="nav-fonts">Tokenomics</a>
@@ -24,10 +24,33 @@
                         <a href="" class="nav-fonts">FAQ</a>
                         <button class="connect-wallet">Connect Wallet</button>
                     </div>
+                    <div class="menubox d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- section-1 -->
+    <section class="section-1">
+        <div class="container">
+            <div class="row pt-100">
+                <div class="col-6 d-flex flex-column align-items-start justify-content-center">
+                    <h2 class="sec-1-heading">Accumsan ut orci vitae</h2>
+                    <p class="sec-1-para mt-2">Velit eget sit nibh fringilla risus ullamcorper malesuada. Morbi nulla
+                        suscipit dolor, volutpat
+                        quam at urna donec
+                        rutrum. In vulputate congue arcu in et.</p>
+                    <button class="connect-wallet"> Connect Wallet</button>
+                </div>
+                <div class="col-6">
+                    <img src="./assets/images/sec-1-img.png" alt="fox" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
