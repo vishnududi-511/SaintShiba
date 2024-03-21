@@ -17,15 +17,21 @@
     --font-size-16: 16px;
     --font-size-20: 20px;
     --font-size-18: 18px;
+    --font-size-22: 22px;
     --font-size-23: 23px;
     --font-size-25: 25px;
+    --font-size-28: 28px;
     --font-size-30: 30px;
     --font-size-31: 31px;
     --font-size-35: 35px;
+    --font-size-36: 36px;
     --font-size-39: 39px;
     --font-size-42: 42px;
+    --font-size-40: 40px;
     --font-size-48: 48px;
     --font-size-64: 64px;
+    --font-size-67: 67px;
+    --font-size-96: 96px;
 
     --color-orange: #F06500;
     --nav-color: #000000BF;
@@ -58,18 +64,18 @@
 }
 
 .saint {
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-sm);
     line-height: 54px;
     text-align: left;
     color: var(--color-white);
 }
 
 .shiba {
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 700;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-xl);
     line-height: 54px;
     text-align: left;
     color: var(--color-orange);
@@ -117,9 +123,9 @@
     border-radius: 23px;
     color: var(--color-white);
     border: 1px solid var(--color-orange);
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: left;
 }
@@ -140,9 +146,9 @@
 }
 
 .sec-1-heading {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 700;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-40);
+    font-weight: var(--font-weight-xl);
     line-height: 42.52px;
     text-align: left;
     color: var(--color-white);
@@ -154,9 +160,9 @@
     border-radius: 23px;
     color: var(--color-white);
     border: 1px solid var(--color-orange);
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: left;
 }
@@ -166,9 +172,9 @@
 }
 
 .sec-1-para {
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-sm);
     line-height: 33px;
     text-align: left;
     color: var(--color-white);
@@ -180,9 +186,9 @@
 
 /* --------------------section-2-------------------- */
 .position-box-heading {
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 44.44px;
     text-align: left;
     color: var(--color-white);
@@ -204,9 +210,9 @@
 }
 
 .position-box-para {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 32.4px;
     text-align: left;
     color: var(--color-white);
@@ -229,18 +235,18 @@
 }
 
 .sec-2-heading {
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 44.44px;
     text-align: left;
     color: var(--color-white);
 }
 
 .sec-2-para {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 32.4px;
     text-align: left;
     color: var(--color-white);
@@ -254,9 +260,9 @@
     border-radius: 23px;
     color: var(--color-white);
     border: 1px solid var(--color-orange);
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-lg);
     line-height: 32.4px;
     text-align: left;
 }
@@ -271,18 +277,18 @@
 }
 
 .sec-3-heading {
-    font-family: Poppins;
+    font-family: var(--ff-poppins);
     font-size: 39px;
-    font-weight: 600;
+    font-weight: var(--font-weight-lg);
     line-height: 61.44px;
     text-align: left;
     color: var(--color-white);
 }
 
 .sec-3-para {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30.4px;
     text-align: left;
     color: var(--color-white);
@@ -318,9 +324,9 @@
 }
 
 .circle-no {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: center;
     color: var(--color-black);
@@ -329,18 +335,18 @@
 }
 
 .sec-3-box-heading {
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: left;
     color: var(--color-white);
 }
 
 .sec-3-box-para {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-sm);
     line-height: 32.4px;
     text-align: left;
     color: var(--color-white);
@@ -359,9 +365,9 @@
 }
 
 .Tokenomics {
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 61.44px;
     text-align: center;
     color: var(--color-white);
@@ -392,9 +398,9 @@
 }
 
 .sec-4-box-heading {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-sm);
     line-height: 33px;
     text-align: left;
     color: var(--color-white);
@@ -403,18 +409,18 @@
 .sec-4-box-font1 {
     color: var(--color-white);
     opacity: 70%;
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 25.2px;
     text-align: left;
 }
 
 .sec-4-box-font2 {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-lg);
     line-height: 42px;
     text-align: left;
 }
@@ -467,9 +473,9 @@
 
 .sed-sem {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-lg);
     line-height: 32.4px;
     text-align: left;
 }
@@ -506,9 +512,9 @@
     padding-left: 20px;
     padding-right: 20px;
     text-wrap: nowrap;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-lg);
     line-height: 32.4px;
     text-align: center;
 }
@@ -516,9 +522,9 @@
 .sec-4-table .tbody tr td {
     color: var(--color-white);
     opacity: 70%;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-sm);
     line-height: 32.4px;
     text-align: center;
     padding-top: 14px;
@@ -608,9 +614,9 @@ table tr:last-child td:last-child {
 
 .timeline-heading-left {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 54px;
     text-align: left;
 }
@@ -618,18 +624,18 @@ table tr:last-child td:last-child {
 .timeline-para-left {
     color: var(--color-white);
     opacity: 70%;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30.4px;
     text-align: left;
 }
 
 .timeline-heading {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 54px;
     text-align: left;
 }
@@ -649,9 +655,9 @@ table tr:last-child td:last-child {
 .timeline-para-right {
     color: var(--color-white);
     opacity: 70%;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30.4px;
     text-align: left;
 }
@@ -666,9 +672,9 @@ table tr:last-child td:last-child {
 
 .roadmap {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-40);
+    font-weight: var(--font-weight-lg);
     line-height: 61.44px;
     text-align: center;
 }
@@ -693,9 +699,9 @@ table tr:last-child td:last-child {
 
 .faq {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-lg);
     line-height: 61.44px;
     text-align: center;
 }
@@ -705,9 +711,9 @@ table tr:last-child td:last-child {
     transition: max-height 1s ease;
     color: var(--color-white);
     opacity: 70%;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 28.4px;
     text-align: left;
     padding: 10px;
@@ -715,9 +721,9 @@ table tr:last-child td:last-child {
 
 .label {
     color: var(--color-white);
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--ff-poppins);
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: left;
     padding: 15px 20px;
@@ -734,9 +740,9 @@ table tr:last-child td:last-child {
 
 @media (min-width:1400px) {
     .sec-1-heading {
-        font-family: Poppins;
-        font-size: 96px !important;
-        font-weight: 700 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-96) !important;
+        font-weight: var(--font-weight-xl) !important;
         line-height: 95.52px !important;
         text-align: left;
         color: var(--color-white);
@@ -745,18 +751,18 @@ table tr:last-child td:last-child {
 
 @media (min-width:1200px) {
     .sec-3-box-heading {
-        font-family: Poppins;
-        font-size: 22px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-22) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 33px !important;
         text-align: left;
         color: var(--color-white);
     }
 
     .sec-3-box-para {
-        font-family: Poppins;
-        font-size: 18px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 32.4px !important;
         text-align: left;
         color: var(--color-white);
@@ -766,9 +772,9 @@ table tr:last-child td:last-child {
 
 @media (min-width:992px) {
     .sec-1-heading {
-        font-family: Poppins;
-        font-size: 67px;
-        font-weight: 700;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-67);
+        font-weight: var(--font-weight-xl);
         line-height: 80px;
         text-align: left;
         color: var(--color-white);
@@ -776,18 +782,18 @@ table tr:last-child td:last-child {
 
     /*--------------- section-3--------------- */
     .sec-3-box-heading {
-        font-family: Poppins;
-        font-size: 20px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-lg);
         line-height: 27px;
         text-align: left;
         color: var(--color-white);
     }
 
     .sec-3-box-para {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24.4px;
         text-align: left;
         color: var(--color-white);
@@ -812,18 +818,18 @@ table tr:last-child td:last-child {
 
     /* -------------section-1----------------- */
     .position-box-heading {
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: left;
         color: var(--color-white);
     }
 
     .position-box-para {
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
         color: var(--color-white);
@@ -835,27 +841,27 @@ table tr:last-child td:last-child {
         border-radius: 23px;
         color: var(--color-white);
         border: 1px solid var(--color-orange);
-        font-family: Poppins;
-        font-size: 22px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-22);
+        font-weight: var(--font-weight-lg);
         line-height: 33px;
         text-align: left;
     }
 
     /* --------------------section-2----------------------- */
     .sec-2-heading {
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: left;
         color: var(--color-white);
     }
 
     .sec-2-para {
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
         color: var(--color-white);
@@ -868,9 +874,9 @@ table tr:last-child td:last-child {
         border-radius: 23px;
         color: var(--color-white);
         border: 1px solid var(--color-orange);
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-lg);
         line-height: 32.4px;
         text-align: left;
     }
@@ -925,9 +931,9 @@ table tr:last-child td:last-child {
 
     .timeline-heading-left {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 36px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 54px !important;
         text-align: right !important;
     }
@@ -935,18 +941,18 @@ table tr:last-child td:last-child {
     .timeline-para-left {
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 18px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 32.4px !important;
         text-align: right !important;
     }
 
     .timeline-heading {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 36px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 54px !important;
         text-align: left !important;
     }
@@ -954,9 +960,9 @@ table tr:last-child td:last-child {
     .timeline-para-right {
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 18px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 32.4px !important;
         text-align: left !important;
     }
@@ -985,9 +991,9 @@ table tr:last-child td:last-child {
     }
 
     .circle-no {
-        font-family: Poppins;
-        font-size: 22px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-22);
+        font-weight: var(--font-weight-lg);
         line-height: 33px;
         text-align: center;
         color: var(--color-black);
@@ -996,18 +1002,18 @@ table tr:last-child td:last-child {
     }
 
     .sec-3-heading {
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: left;
         color: var(--color-white);
     }
 
     .sec-3-para {
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
         color: var(--color-white);
@@ -1016,18 +1022,18 @@ table tr:last-child td:last-child {
 
     /* ---section-4----- */
     .Tokenomics {
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: center;
         color: var(--color-white);
     }
 
     .sec-4-box-heading {
-        font-family: Poppins;
-        font-size: 22px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-22);
+        font-weight: var(--font-weight-sm);
         line-height: 33px;
         text-align: left;
         color: var(--color-white);
@@ -1036,18 +1042,18 @@ table tr:last-child td:last-child {
     .sec-4-box-font1 {
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 25.2px;
         text-align: left;
     }
 
     .sec-4-box-font2 {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 28px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-28);
+        font-weight: var(--font-weight-lg);
         line-height: 42px;
         text-align: left;
     }
@@ -1059,9 +1065,9 @@ table tr:last-child td:last-child {
     /* timeline */
     .timeline-heading-left {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 36px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36);
+        font-weight: var(--font-weight-lg);
         line-height: 54px;
         text-align: left;
     }
@@ -1069,18 +1075,18 @@ table tr:last-child td:last-child {
     .timeline-para-left {
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
     }
 
     .timeline-heading {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 36px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36);
+        font-weight: var(--font-weight-lg);
         line-height: 54px;
         text-align: left;
     }
@@ -1088,18 +1094,18 @@ table tr:last-child td:last-child {
     .timeline-para-right {
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
     }
 
     .roadmap {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: center;
     }
@@ -1107,9 +1113,9 @@ table tr:last-child td:last-child {
     /* accordion */
     .faq {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-lg);
         line-height: 61.44px;
         text-align: center;
     }
@@ -1119,9 +1125,9 @@ table tr:last-child td:last-child {
         transition: max-height 1s ease;
         color: var(--color-white);
         opacity: 70%;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
         line-height: 32.4px;
         text-align: left;
         padding: 10px;
@@ -1129,27 +1135,27 @@ table tr:last-child td:last-child {
 
     .label {
         color: var(--color-white);
-        font-family: Poppins;
-        font-size: 22px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-22);
+        font-weight: var(--font-weight-lg);
         line-height: 33px;
         text-align: left;
         padding: 23px 30px;
     }
 
     .saint {
-        font-family: Poppins;
-        font-size: 36px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36);
+        font-weight: var(--font-weight-sm);
         line-height: 54px;
         text-align: left;
         color: var(--color-white);
     }
 
     .shiba {
-        font-family: Poppins;
-        font-size: 36px;
-        font-weight: 700;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-36);
+        font-weight: var(--font-weight-xl);
         line-height: 54px;
         text-align: left;
         color: var(--color-orange);
@@ -1197,18 +1203,18 @@ table tr:last-child td:last-child {
 
     /*--------------- section-3--------------- */
     .sec-3-box-heading {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 600;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-lg);
         line-height: 27px;
         text-align: left;
         color: var(--color-white);
     }
 
     .sec-3-box-para {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-poppins);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24.4px;
         text-align: left;
         color: var(--color-white);
