@@ -374,10 +374,8 @@
 }
 
 .sec-4-box {
-    border: 1px solid;
-    border-image-source:
-        linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%,
-            rgba(255, 255, 255, 0.092) 106.99%);
+    border: 1px solid #272626;
+
     background:
         linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%,
             rgba(255, 255, 255, 0) 103.14%);
