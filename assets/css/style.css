@@ -639,6 +639,41 @@ table tr:last-child td:last-child {
     padding: 10px 10px 10px 60px;
 }
 
+/* accordian */
+.acc-content {
+    display: none;
+    transition: max-height 1s ease;
+    color: var(--color-white);
+    opacity: 70%;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    padding: 10px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.a-container {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    /* padding: 23px 30px; */
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.label {
+    color: var(--color-white);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    padding: 23px 30px;
+}
+
 @media (min-width:1400px) {
     .sec-1-heading {
         font-family: Poppins;
