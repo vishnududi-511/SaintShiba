@@ -227,6 +227,7 @@
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     position: relative;
     top: -90px;
+    border-radius: 10px;
     backdrop-filter: blur(7px);
 }
 
@@ -692,6 +693,7 @@ table tr:last-child td:last-child {
     /* padding: 23px 30px; */
     margin-bottom: 10px;
     border: 1px solid;
+    border-radius: 10px;
 }
 
 
@@ -724,6 +726,7 @@ table tr:last-child td:last-child {
     font-weight: var(--font-weight-lg);
     line-height: 33px;
     text-align: left;
+    cursor: pointer;
     padding: 15px 20px;
 }
 
@@ -815,6 +818,7 @@ table tr:last-child td:last-child {
 @media (min-width:768px) {
 
     /* -------------section-1----------------- */
+
     .position-box-heading {
         font-family: var(--ff-poppins);
         font-size: var(--font-size-48);
