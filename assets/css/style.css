@@ -568,6 +568,39 @@ table tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
 }
 
+/* ::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 30px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--color-orange);
+} */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-orange);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /* timeline */
 
 .timeline {
@@ -580,7 +613,7 @@ table tr:last-child td:last-child {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: var(--color-white);
     top: 12px;
     bottom: -24px;
     left: 18px;
@@ -813,6 +846,10 @@ table tr:last-child td:last-child {
         right: 0;
         height: 600px;
     }
+
+    .lg-w-unset {
+        width: unset;
+    }
 }
 
 @media (min-width:768px) {
@@ -979,6 +1016,10 @@ table tr:last-child td:last-child {
 
     .md-pt-40 {
         padding-top: 40px;
+    }
+
+    .md-w-50 {
+        width: 50%;
     }
 }
 
@@ -1172,6 +1213,7 @@ table tr:last-child td:last-child {
         flex-direction: column;
         justify-content: space-between;
         z-index: 3;
+        cursor: pointer;
     }
 
     .menubox span {

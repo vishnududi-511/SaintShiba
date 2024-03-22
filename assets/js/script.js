@@ -49,7 +49,6 @@ accordion_box.forEach(items => {
             }
         })
 
-
         let paragraph = items.querySelector(".acc-content");
         let arrow = items.querySelector(".arrow");
 
@@ -60,7 +59,6 @@ accordion_box.forEach(items => {
         else {
             paragraph.style.display = "none"
             arrow.classList.remove("rotate")
-
         }
     })
 })
